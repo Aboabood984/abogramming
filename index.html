@@ -1,206 +1,15 @@
-
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Abogramming</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- كود التحقق من جوجل -->
+  <meta name="google-site-verification" content="RLeAxlKCYuNDKydJEbdveAKy0r1-kFj3xhM_GaYvTyc" />
 </head>
-
 <body>
-  <header>
-    <nav>
-      <div class="logo">
-        <h2>Abogramming</h2>
-      </div>
-      <ul class="nav-links">
-        <li><a href="#home">الرئيسية</a></li>
-        <li><a href="#about">عني</a></li>
-        <li><a href="#services">خدماتي</a></li>
-        <li><a href="#portfolio">أعمالي</a></li>
-        <li><a href="#contact">اتصل بي</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section id="home" class="hero">
-      <div class="hero-content">
-        <h1>مرحباً بك في Abogramming 👋💻</h1>
-        <p>أهلاً وسهلاً! هذا موقع Abogramming حيث يمكنك التعرف على خدماتي وأعمالي في البرمجة ✨</p>
-        <button class="cta-button" onclick="scrollToSection('about')">تعرف عليّ أكثر 🚀</button>
-      </div>
-    </section>
-
-    <section id="about" class="about">
-      <div class="container">
-        <h2>عن نفسي 👨‍💻</h2>
-        <div class="about-content">
-          <div class="about-text">
-            <p>أنا شخص مبدع ومتحمس للتكنولوجيا والتصميم 🎨. أحب إنشاء مواقع ويب جميلة وعملية ✨.</p>
-            <p>أهدف إلى تقديم حلول مبتكرة وخدمات عالية الجودة لعملائي 🎯.</p>
-          </div>
-          <div class="skills">
-            <h3>مهاراتي 🛠️</h3>
-            <div class="skill-item">
-              <span>🌐 تطوير المواقع</span>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 90%"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <span>🎨 التصميم</span>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 85%"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <span>💻 البرمجة</span>
-              <div class="skill-bar">
-                <div class="skill-progress" style="width: 80%"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="services" class="services">
-      <div class="container">
-        <h2>خدماتي ⚡</h2>
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="service-icon">🌐</div>
-            <h3>تطوير المواقع</h3>
-            <p>أقوم بإنشاء مواقع ويب حديثة ومتجاوبة مع جميع الأجهزة</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">🎨</div>
-            <h3>التصميم الجرافيكي</h3>
-            <p>تصميم شعارات ومواد تسويقية احترافية</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">📱</div>
-            <h3>تطبيقات الهاتف</h3>
-            <p>تطوير تطبيقات الهاتف المحمول لنظامي iOS و Android</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-        <h2>أعمالي ومشاريعي 🎯</h2>
-        <div class="portfolio-grid">
-          <div class="portfolio-item">
-            <div class="portfolio-image">
-              <div class="portfolio-overlay">
-                <h3>موقع متجر إلكتروني</h3>
-                <p>تطوير متجر إلكتروني متكامل مع نظام دفع آمن</p>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-item">
-            <div class="portfolio-image">
-              <div class="portfolio-overlay">
-                <h3>تطبيق إدارة المهام</h3>
-                <p>تطبيق ويب لإدارة المهام والمشاريع</p>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-item">
-            <div class="portfolio-image">
-              <div class="portfolio-overlay">
-                <h3>موقع شركة</h3>
-                <p>موقع تعريفي احترافي لشركة تقنية</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="testimonials" class="testimonials">
-      <div class="container">
-        <h2>آراء العملاء 💬</h2>
-        <div class="testimonials-grid">
-          <div class="testimonial-card">
-            <div class="stars">⭐⭐⭐⭐⭐</div>
-            <p>"عمل رائع ومتميز! تم تسليم المشروع في الوقت المحدد وبجودة عالية جداً"</p>
-            <div class="client-info">
-              <h4>أحمد محمد</h4>
-              <span>صاحب متجر إلكتروني</span>
-            </div>
-          </div>
-          <div class="testimonial-card">
-            <div class="stars">⭐⭐⭐⭐⭐</div>
-            <p>"خدمة احترافية ومتابعة ممتازة. أنصح بالتعامل معه بشدة"</p>
-            <div class="client-info">
-              <h4>فاطمة علي</h4>
-              <span>مديرة تسويق</span>
-            </div>
-          </div>
-          <div class="testimonial-card">
-            <div class="stars">⭐⭐⭐⭐⭐</div>
-            <p>"تصميم إبداعي وبرمجة متقنة. تجاوز توقعاتي بكثير"</p>
-            <div class="client-info">
-              <h4>محمد سالم</h4>
-              <span>رائد أعمال</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <div class="container">
-        <h2>تواصل معي 📞</h2>
-        <div class="contact-content">
-          <div class="contact-info">
-            <div class="contact-item">
-              <span class="contact-icon">📧</span>
-              <p>your.email@gmail.com</p>
-            </div>
-            <div class="contact-item">
-              <span class="contact-icon">💻</span>
-              <p>مطور ومبرمج محترف</p>
-            </div>
-            <div class="contact-item">
-              <span class="contact-icon">📍</span>
-              <p>جمهورية مصر العربية</p>
-            </div>
-            <div class="social-links">
-              <h3>تابعني على 🔗</h3>
-              <div class="social-icons">
-                <a href="#" class="social-icon">📘</a>
-                <a href="#" class="social-icon">📷</a>
-                <a href="#" class="social-icon">🐦</a>
-                <a href="#" class="social-icon">💼</a>
-                <a href="#" class="social-icon">💻</a>
-                <a href="#" class="social-icon">🎮</a>
-              </div>
-            </div>
-          </div>
-          <form class="contact-form">
-            <input type="text" placeholder="اسمك" required>
-            <input type="email" placeholder="بريدك الإلكتروني" required>
-            <textarea placeholder="رسالتك" rows="5" required></textarea>
-            <button type="submit">إرسال الرسالة 📤</button>
-          </form>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 Abogramming. جميع الحقوق محفوظة.</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+  <h1>Welcome to Abogramming!</h1>
+  <p>This is your GitHub Pages site. Verification code has been added.</p>
 </body>
-
 </html>
